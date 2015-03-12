@@ -1,4 +1,4 @@
-FROM buildpack-deps:wheezy-curl
+FROM phommel/buildpack-deps:trusty-curl
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		bzr \
